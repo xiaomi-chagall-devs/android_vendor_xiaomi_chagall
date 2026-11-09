@@ -1,0 +1,162 @@
+{
+    "PipelineName": "quickviewsnapshot",
+    "NodesList": {
+        "Node": [
+            {
+                "NodeName": "com.xiaomi.plugin.swjpegencode",
+                "NodeInstance": "SwJpegInstance0"
+            },
+            {
+                "NodeName": "com.xiaomi.plugin.jiiganfrontbokehstream",
+                "NodeInstance": "QuickviewSingleBokehInstance"
+            },
+            {
+                "NodeName": "com.xiaomi.plugin.movieeffect",
+                "NodeInstance": "MovieEffectInstance0"
+            },
+            {
+                "NodeName": "com.xiaomi.plugin.swflip",
+                "NodeInstance": "QuickviewSwFlipInstance"
+            },
+            {
+                "NodeName": "com.xiaomi.plugin.watermark",
+                "NodeInstance": "QuickviewWatermarkInstance0",
+                "NodeProperty":[
+                    {
+                    "NodePropertyName":"NodeMask",
+                    "NodePropertyValue":128 //CUSTOMSIZE_MODE
+                    },
+                    {
+                        "NodePropertyName": "pluginMode",
+                        "NodePropertyValue": 1 //QuickviewMode
+                    }
+                ]
+            },
+            {
+                "NodeName": "com.xiaomi.plugin.filter",
+                "NodeInstance": "QuickviewFilterInstance0"
+            },
+            {
+                "NodeName": "com.xiaomi.plugin.hwhalproc",
+                "NodeInstance": "QuickviewWPEPQInstance0",
+                "NodeProperty": [
+                    {
+                        "NodePropertyName": "NodeMask",
+                        "NodePropertyValue": 32768
+                    }
+                ]
+            },
+            {
+                "NodeName": "com.xiaomi.plugin.jpegrAggr",
+                "NodeInstance": "jpegrAggrInstance"
+            },
+            {
+                "NodeName": "com.xiaomi.plugin.hwjpeg",
+                "NodeInstance": "JpegInstanceFinal",
+                "NodeProperty":[
+                {
+                    "NodePropertyName":"NodeMask",
+                    "NodePropertyValue":132
+                }
+                ]
+            }
+        ]
+    },
+    "PortLinkages": {
+        "Link": [
+            {
+                "SrcPort": {
+                    "PortId": 0,
+                    "NodeInstance": "SourceBuffer"
+                },
+                "DstPort": {
+                    "PortId": 0,
+                    "NodeInstance": "QuickviewWPEPQInstance0",
+                    "PortFormat": "YUV420_NV21"
+                }
+            },
+            {
+                "SrcPort": {
+                    "PortId": 0,
+                    "NodeInstance": "QuickviewWPEPQInstance0",
+                    "PortFormat": "YUV420_NV21"
+                },
+                "DstPort": {
+                    "PortId": 0,
+                    "NodeInstance": "QuickviewSingleBokehInstance",
+                    "PortFormat": "YUV420_NV21"
+                }
+            },
+            {
+                "SrcPort": {
+                    "PortId": 0,
+                    "NodeInstance": "QuickviewSingleBokehInstance",
+                    "PortFormat": "YUV420_NV21"
+                },
+                "DstPort": {
+                    "PortId": 0,
+                    "NodeInstance": "QuickviewSwFlipInstance",
+                    "PortFormat": "YUV420_NV21"
+                }
+            },
+            {
+                "SrcPort": {
+                    "PortId": 0,
+                    "NodeInstance": "QuickviewSwFlipInstance",
+                    "PortFormat": "YUV420_NV21"
+                },
+                "DstPort": {
+                    "PortId": 0,
+                    "NodeInstance": "MovieEffectInstance0",
+                    "PortFormat": "YUV420_NV21"
+                }
+            },
+            {
+                "SrcPort": {
+                    "PortId": 0,
+                    "NodeInstance": "MovieEffectInstance0",
+                    "PortFormat": "YUV420_NV21"
+                },
+                "DstPort": {
+                    "PortId": 0,
+                    "NodeInstance": "QuickviewFilterInstance0",
+                    "BufferType": "Gralloc"
+                }
+            },
+            {
+                "SrcPort": {
+                    "PortId": 0,
+                    "NodeInstance": "QuickviewFilterInstance0",
+                    "BufferType": "Gralloc"
+                },
+                "DstPort": {
+                    "PortId": 0,
+                    "NodeInstance": "QuickviewWatermarkInstance0"
+                }
+            },
+            {
+                "SrcPort": {
+                    "PortId": 0,
+                    "NodeInstance": "QuickviewWatermarkInstance0",
+                    "PortFormat": "YUV420_NV12"
+                },
+                "DstPort": {
+                    "PortId": 0,
+                    "NodeInstance": "JpegInstanceFinal",
+                    "PortFormat": "YUV420_NV21"
+                }
+            },
+            {
+                "SrcPort": {
+                    "PortId": 0,
+                    "NodeInstance": "JpegInstanceFinal",
+                    "PortFormat": "BLOB"
+                },
+                "DstPort": {
+                    "PortId": 0,
+                    "NodeInstance": "SinkBuffer"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,275 @@
+{
+  "Description": "Xiaomi SmartAE config file",
+  "phone_code": "P12A",
+  "jsonVersion": "20260331_7e5fe346",
+
+  "CAMERA_CONFIG": {
+    "Description": "camera mode config",
+    "DISABLE_ALGO": {
+      "NORMAL": [
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "BOKEH": [
+        "AlgoType_SNSC",
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "ManualJPG": [
+        "AlgoType_SNSC",
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_F",
+        "AlgoType_SN_F",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "ManualRAW": [
+        "AlgoType_SNSC",
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_F",
+        "AlgoType_SN_F",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "ManualUltraRAW": [
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_F",
+        "AlgoType_SN_F",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "ManualJPG50M": [
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_F",
+        "AlgoType_SN_F",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "ManualRAW50M": [
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_F",
+        "AlgoType_SN_F",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "ManualUltraRAW50M": [
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_F",
+        "AlgoType_SN_F",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "SuperNight": [
+        "AlgoType_SNSC",
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_F",
+        "AlgoType_SN_F",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "Fastshot": [
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_F",
+        "AlgoType_SN_F",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "Supermoon": [
+        "AlgoType_SNSC",
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_F",
+        "AlgoType_SN_F",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "Documents": [
+        "AlgoType_SNSC",
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_F",
+        "AlgoType_SN_F",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "SuperMacro": [
+        "AlgoType_SNSC",
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_F",
+        "AlgoType_SN_F",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ],
+      "50M": [
+        "AlgoType_ELL",
+        "AlgoType_SNSC",
+        "AlgoType_SNSC_HDR",
+        "AlgoType_HDR_F",
+        "AlgoType_SN_F",
+        "AlgoType_HDR_LL",
+        "AlgoType_SRSE"
+      ]
+    },
+    "UI_CONTROL":{
+        "UI_HDR":{
+            "NORMAL": true,
+            "BOKEH": true
+          },
+          "UI_SE":{
+            "NORMAL": true,
+            "BOKEH": true
+          }
+    }
+  },
+  "SENSOR_CONFIG": {
+    "Description": "Sensor type config",
+    "calRealZoomRatioEnable": true,
+    "WIDE": {
+      "sensorName": "OV50E",
+      "sensorType": "wide",
+      "sensorZoomRatio": 1.0,
+      "SensorProperty": [
+        {
+          "sensor_mode": "BinningNormal",
+          "minShutter": 11042,
+          "minShutter_check": false
+        },
+        {
+          "sensor_mode": "BiningDOL2",
+          "minShutter": 80771,
+          "minShutter_check": true
+        },
+        {
+          "sensor_mode": "HWRemosaic",
+          "minShutter": 29551,
+          "minShutter_check": false
+        },
+        {
+          "sensor_mode": "ISZQUAD",
+          "minShutter": 29551,
+          "minShutter_check": false
+        }
+      ]
+    },
+    "UW": {
+      "sensorName": "OV13B",
+      "sensorType": "ultra wide",
+      "sensorZoomRatio": 0.6,
+      "SensorProperty": [
+        {
+          "sensor_mode": "BinningNormal",
+          "minShutter": 11042,
+          "minShutter_check": false
+        }
+      ]
+    },
+    "TELE": {
+      "sensorName": "JN5",
+      "sensorType": "tele",
+      "sensorZoomRatio": 5,
+      "SensorProperty": [
+        {
+          "sensor_mode": "BinningNormal",
+          "minShutter": 22518,
+          "minShutter_check": false
+        },
+        {
+          "sensor_mode": "BiningDOL2",
+          "minShutter": 22518,
+          "minShutter_check": true
+        },
+        {
+          "sensor_mode": "ISZQUAD",
+          "minShutter": 29551,
+          "minShutter_check": false
+        }
+      ]
+    },
+    "ULTRATELE": {
+      "sensorName": "JN5",
+      "sensorType": "ULTRATELE",
+      "sensorZoomRatio": 5,
+      "SensorProperty": [
+        {
+          "sensor_mode": "BinningNormal",
+          "minShutter": 22518,
+          "minShutter_check": false
+        },
+        {
+          "sensor_mode": "BiningDOL2",
+          "minShutter": 22518,
+          "minShutter_check": true
+        },
+        {
+          "sensor_mode": "ISZQUAD",
+          "minShutter": 29551,
+          "minShutter_check": false
+        }
+      ]
+    },
+    "F_WIDE": {
+      "sensorName": "S5KKDS",
+      "sensorType": "wide",
+      "sensorZoomRatio": 0.8,
+      "SensorProperty": [
+        {
+          "sensor_mode": "BinningNormal",
+          "minShutter": 11042,
+          "minShutter_check": false
+        }
+      ]
+    },
+    "EXTRA_ZOOM": {
+      "ISZQUAD": 2.0
+    }
+  },
+  "ZOOM_CONFIG": {
+    "sr_start_zoom": 1.4
+  },
+  "FULLSIZE_QUAD": {
+    "Description": "Full size quad config",
+
+    "F_WIDE": {
+      "luxindex": 500
+    },
+    "WIDE": {
+      "luxindex": 500
+    },
+    "UW": {
+      "luxindex": 500
+    },
+    "TELE": {
+      "luxindex": 500
+    },
+    "ULTRATELE": {
+      "luxindex": 500
+    }
+  },
+  "LED_CONFIG": {
+    "Description": "LED config",
+    "support_led": true
+  },
+  "SOT_CONFIG":{
+    "Description":"platform sot map",
+    "SegMap":{
+        "Background": 0,
+        "Person": 3,
+        "Skin": 0,
+        "Hair": 0,
+        "Sky": 1,
+        "Vegetation": 2,
+        "Pet": 8,
+        "Flower": 0,
+        "SoilDirt": 6
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

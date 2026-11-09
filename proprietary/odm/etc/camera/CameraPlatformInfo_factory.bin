@@ -1,0 +1,215 @@
+{
+    Kproduc+}e }<7>8>33}s
+    };:)6<:InfoE] {
+        CsizeKS \E
+        KYKS {
+            CroleI;}     e iks
+            },:1,0-Name.dC [ CPSWZWVZPWUC
+        }@
+        N]NV {
+            Nrole&dO     W \A
+            Ose1,0-Name.dC [ CPWRC
+        }@
+        N^NV {
+            Nrole&dO     W ]A
+            Ose1,0-Name.dC [ CPSWC
+        }@
+        N_NV {
+            Nrole&dO     W _\A
+            Ose1,0-Name.dC [ CWVC
+        }@
+        NXNV {
+            Nrole&dO     W _]A
+            Ose1,0-Name.dC [ CPWUC
+        }
+    }@
+    Ndual,am$nf0}e $
+        },6%:}e ms
+        }o}e $
+            }2>,+:-Role.dC     [ QM
+            Cslave;ole$dK      S [XE
+            Kd*2/FileE         ] EHdataCvendorBca2:->p<02q'6>026q;<>3q(*q;>+>}s
+            }803;:1FileE       ] EHodmCetcNcamer>p<02q'6>026q;<>3q(*q803;:1}s
+            }6,Eeprom(ataK     S falseE
+            Ke:/-02Data3ole%dN V \@
+            Neeprom"ff,:+}     e os
+            }::/-02Data2izeN   V X\UZ
+        }@
+        N]NV {
+            ZmasterRole.dC     [ SQM
+            Cslave;ole$dK      S YE
+            Kd*2/FileE         ] EHdataCvendorBca2:->p<02q'6>026q;<>3q(+q;>+>}s
+            }803;:1FileE       ] EHodmCetcNcamer>p<02q'6>026q;<>3q(+q803;:1}s
+            }6,Eeprom(ataK     S falseE
+            Ke:/-02Data3ole%dN V \@
+            Neeprom"ff,:+}     e os
+            }::/-02Data2izeN   V X\UZ
+        }
+    }T
+    ZeepromMap(nfoNV {
+        N>ole(d=earWideE] {
+            CsunnyC[ {
+                Mfus:Id'ffsetN     V ]Z@
+                Nfuse&d>iz:}       e nis
+                }.-Code!lag#ffsetM U ^Y\Z[C
+                Mqr*o;:OffsetN     V ]Z_YY@
+                Nqr;ode<ize}       e nks
+                }7>,O*0.apC        [ true@
+                N#%?(ata,apMU {
+                    O"$>*ainX,ffsetN   V ]\X^]@
+                    N#%?+ain0&ffset}   e nokjls
+                    }O*0'elay?(ffsetK  S XY][ZE
+                    K&I2%elayY,ffsetN  V ]\XYY@
+                    N#%??troke7Off,:+} e nokkgs
+                    }O*00troke5#ffsetM U ^_[W_C
+                    M?ixe3mHallE       ] VWRWVK
+                    E(.43ypeN          V ^@
+                    N#%?.itsC          [ PS
+                }C
+                M'wMo;*3:Id'ffsetNV ]_@
+                N-;.#ffsetOW \UZ[A
+                Oha,A%*nfoE] trueT
+                Z9>1nfo"apKS{
+                    }H5!inC[{
+                        E4tep]#ffsetOW [U][A
+                        O>te/nSizeE  ] ^PQK
+                        E4tep^#ffsetOW ZZUYA
+                        O>te/mSizeE  ] VQUSK
+                        EenableC     [ P
+                    }C
+                    M<fr&f9,:+}      e jh
+                "
+            "
+        "s
+        }Role.d'rontKS {
+            Cofil2}e $
+                }9*,:Id'ffsetN     V ]Z@
+                Nfuse&d>iz:}       e nis
+                }.-Code!lag#ffsetM U W_W^C
+                Mqr*o;:OffsetN     V T\T^@
+                Nqr;ode<ize}       e nks
+                }7>,O*0.apC        [ falseT
+                Z0w$oduleId'ffsetNV ]_@
+                N-;.#ffsetOW \UZ[A
+                Oha,A%*nfoE] false
+            }
+        }M
+        C3oleI;Rear3eleNV {
+            ZsemcoKS {
+                }9*,:Id'ffsetN     V ]Z@
+                Nfuse&d>iz:}       e nis
+                }.-Code!lag#ffsetM U ^_ZY_C
+                Mqr*o;:OffsetN     V ]\YZ]@
+                Nqr;ode<ize}       e nks
+                }7>,O*0.apC        [ true@
+                N#%?(ata,apMU {
+                    O"$>*ainX,ffsetN   V ]\XT]@
+                    N#%?+ain0&ffset}   e nojnls
+                    }O*0'elay?(ffsetK  S XY]QZE
+                    K&I2%elayY,ffsetN  V ]\Y]Y@
+                    N#%??troke7Off,:+} e nojogs
+                    }O*00troke5#ffsetM U ^_Z[_C
+                    MO$>9yp:}          e ls
+                    }O*0!itsE          ] VT
+                }M
+                C)w!odule&d"ff,:+}e nls
+                }A4!,ffsetNV ]T[Z@
+                Nhas(/InfoKS t-*:s
+                }A%*nfo*apNV{
+                    N$:.inKS{
+                        C2tepX&f9,:+}e ifjms
+                        }StepV4izeN  V XUZ@
+                        N?tepS.ffse+}e hkjos
+                        }StepU4izeN  V _\]^@
+                        NenableK     S X
+                    }s
+                    }Sfr.ffsetZ      B MO
+                }
+            }
+        }C
+        M=oleI;Rear2ltraZB {
+            Kofilm}e $
+                }9*,:Id'ffsetN     V ]Z@
+                Nfuse&d>iz:}       e nis
+                }.-Code!lag#ffsetM U W_W^C
+                Mqr*o;:OffsetN     V T\T^@
+                Nqr;ode<ize}       e nks
+                }7>,O*0.apC        [ falseT
+                Z0w$oduleId'ffsetNV ]_@
+                N-;.#ffsetOW \UZ[A
+                Oha,A%*nfoE] false
+            }
+        }
+    }C
+    M&n>en,0-ZoomE] {
+        CmodeKS [E
+        Kfake>atInfoE] {
+            CsizeKS ZE
+            KYKS {
+                Czoom>ta-+}   e mqos
+                }%002StopE    ] VWIWK
+                EwidthK       S ]YP_E
+                Kheigh+}      e lohm
+            "s
+            }n}e $
+                }%002StartC   [ SOQM
+                Czoom:topO    W \]C]A
+                Owid+7}       e kofis
+                }7:687+}      e mlok
+            "s
+            }m}e $
+                }%002StartC   [ SOQM
+                Czoom:topO    W \]C]A
+                Owid+7}       e kofis
+                }7:687+}      e mogo
+            "
+        "
+    "s
+    }H'+'1AY {
+        JmodeNV \
+    }@
+    N!%-*NV {
+        Z*ole&d?ea-WideE] {
+            CsunnyC[ {
+                Msiz:}e ls
+                }o}e$
+                    }2><-0_2>-861}      eoqnjs
+                    }619616+&_2>-861}   eroqnj
+                "s
+                }n}e$
+                    }2><-0_2>-861}      eoqnjs
+                    }619616+&_2>-861}   eroqnj
+                "s
+                }m}e$
+                    }2><-0_2>-861}      eoqnjs
+                    }619616+&_2>-861}   eroqnj
+                "
+            "
+        "s
+        }Role.d3ear,eleMU {
+            Ose2<0}e $
+                },6%:}e ls
+                }o}e$
+                    }2><-0_2>-861}      eoqnjs
+                    }619616+&_2>-861}   eroqnj
+                "s
+                }n}e$
+                    }2><-0_2>-861}      eoqnjs
+                    }619616+&_2>-861}   eroqnj
+                "s
+                }m}e$
+                    }2><-0_2>-861}      eoqnjs
+                    }619616+&_2>-861}   eroqnj
+                "
+            "
+        "
+    "s
+    }Af:emap%nfoK S {
+        Csize}e ns
+        }o}e$
+            }-:2>/RangeC [ XQQM
+            CstepK           S [XE
+            Kpostu-:DacC     [ WQ
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    /*  SAT fallback settings
+        Fallback support mask:
+            bit[0] is support W2UW or not,
+            bit[1] is support T2W or not,
+            bit[2] is support UT2W or not,
+            bit[3] is support UT2T or not.
+    */
+    "SatFallback": {
+        "satFallbackSwitch": 2,
+        // photo:W2UWMin：W2UWMax：T2WMin：T2WMax|video:W2UWMinVd:W2UWMaxVd:T2WMinVd:T2WMaxVd
+        "disFbZoomRatio": "0:0:5.0:20.0|0:0:5.0:15.1",
+        "luxFbZoomRatio": "0:0:5.0:20.0|0:0:5.0:15.1",
+        // photo:C2TDis:T2CDis:C2TLux:T2CLux|video:C2TDisVd:T2CDisVd:C2TLuxVd:T2CLuxVd
+        "satFallbackT2W": "0.3:0.43:560:540|0.3:0.43:560:540",
+        "satFallbackW2UW": "0:0:0:0|0:0:0:0",
+        "satFallbackDelta": "0:0:0:0:0|0:0:0:0:0"
+    },
+    "enablePreviewFusion":1,
+    "isSupportBokehCapConfig": true,
+    "transitionZoomRatioLow": "0.6:1.0:5.0",
+    "supported3rdSat": true,
+    "supported3rdSatFallback": false,
+    "hwcapability": {
+        "isz": 6,
+        "ois": 36,
+        "periscope": 4,
+        "highFpsDoSensorCrop": 6
+    },
+    // <roleId, lowfps>
+    "supportLowFpsSensor": [0, 10],
+    "wideAlwaysOnSupportMaxZoom": 50.0,
+    "supportLowFpsAlwaysOn": true,
+    "isSatFollowFingersOpt": true,
+    "isFollowFingerOnlyZoomIn": true,
+    "supportFollowFingerScenes": [32772], // 0x8004
+    "normallyPipelineDelay": 3,
+    "satPsiCpuAvghigh":75,
+    "satZoomAnimation": {
+        "powerExpAnimationFrameMax": 26,
+        "FrequentClickFrameMin":5
+    },
+    "darkExposureTime": 50
+}
