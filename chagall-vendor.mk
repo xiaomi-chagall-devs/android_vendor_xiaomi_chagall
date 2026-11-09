@@ -1451,6 +1451,7 @@ PRODUCT_PACKAGES += \
     libBlAlgointf \
     libDefaultFpsActor \
     libFrameRecord \
+    libHardwareBacklightcore \
     libJpgEncPipe \
     libMi3AAlgoInfo \
     libMiCamCalibInterface \
